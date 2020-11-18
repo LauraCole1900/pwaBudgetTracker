@@ -16,7 +16,7 @@
 
 ## Description
 
-App description and user instructions here
+App description and user instructions go here
 
 ## Links
 
