@@ -27,14 +27,8 @@ App description and user instructions go here
 Landing page:
 ![Landing page:](public/assets/landing-page-screenshot.png)
 
-Notes page with previously-entered notes on the left:
-![Notes page, showing previous notes on the left](public/assets/notes-page-with-notes-screenshot.png)
-
-Notes page with previously-entered note selected:
-![Notes page with a previously-entered note selected](public/assets/notes-page-previous-note-screenshot.png)
-
-Notes page with new note, showing "Save" icon in upper-right corner:
-![Notes page with a new note, showing "Save" icon](public/assets/notes-page-new-note-screenshot.png)
+User input form:
+![User input form](public/assets/user-input-form-screenshot.png)
 
 ## Installation Instructions
 
@@ -54,7 +48,7 @@ npm run test
 
 ## Credits
 
-Base code and front-end functionality developed and provided by Trinity Education Services
+Base code and online functionality developed and provided by Trinity Education Services
 
 ## Contributing
 

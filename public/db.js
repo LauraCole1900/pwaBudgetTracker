@@ -13,7 +13,7 @@ const request = indexedDB.open("budget", 1);
 // Object store
 request.onupgradeneeded = ({ target }) => {
   let db = target.result;
-  db.createObjectStore("<object store name here>", { autoIncrement: true });
+  db.createObjectStore("objStoreName", { autoIncrement: true });
 };
 
 request.onsuccess = ({ target }) => {
@@ -30,15 +30,15 @@ request.onerror = function(event) {
 
 // Save data to the indexedDb
 function saveRecord(record) {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["objStoreName"], "readwrite");
+  const store = transaction.objectStore("objStoreName");
   store.add(record);
 }
 
 // Internet working: POST saved data to server to sync, wipe existing indexedDB. You can keep as-is, unless you want to change the name of the fetch route.
 function checkDatabase() {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["objStoreName"], "readwrite");
+  const store = transaction.objectStore("objStoreName");
   const getAll = store.getAll();
 
   getAll.onsuccess = function() {
@@ -56,8 +56,8 @@ function checkDatabase() {
       })
       .then(() => {
         // delete records if successful
-        const transaction = db.transaction(["<object store name here>"], "readwrite");
-        const store = transaction.objectStore("<object store name here>");
+        const transaction = db.transaction(["objStoreName"], "readwrite");
+        const store = transaction.objectStore("objStoreName");
         store.clear();
       });
     }
