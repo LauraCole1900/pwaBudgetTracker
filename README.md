@@ -18,6 +18,8 @@
 
 This is a budget-tracking app using Node.js, Express, MongoDB, and Mongoose, with the capability to continue functioning when no internet connection is available. Data entered when no internet is available is cached, then uploaded to the database upon internet reconnection. The user shouldn't notice any difference in functionality between online and offline.
 
+To use this app, the user enters a transaction name and dollar amount into the appropriate fields in the form at the top of the page, then clicks either "+ Add Funds" or "- Subtract Funds" as appropriate. The total amount of all transactions is shown above the form, a list of previous transactions below the form, and a graph of transaction history is shown below that.
+
 ## Links
 
 [Deployed application on Heroku](https://cryptic-cliffs-84728.herokuapp.com/)
@@ -36,7 +38,7 @@ npm i
 
 ## Usage
 
-Intended usage here
+This app is intended to be used to track a user's transactions and budget, whether or not the user is connected to the internet.
 
 ## Technologies Used
 
