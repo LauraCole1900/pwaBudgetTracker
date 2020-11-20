@@ -16,11 +16,11 @@
 
 ## Description
 
-App description and user instructions go here
+This is a budget-tracking app using Node.js, Express, MongoDB, and Mongoose, with the capability to continue functioning when no internet connection is available. Data entered when no internet is available is cached, then uploaded to the database upon internet reconnection. The user shouldn't notice any difference in functionality between online and offline.
 
 ## Links
 
-[Deployed application on Heroku](https://#.herokuapp.com/)
+[Deployed application on Heroku](https://cryptic-cliffs-84728.herokuapp.com/)
 
 ## Screenshots
 
@@ -40,7 +40,7 @@ Intended usage here
 
 ## Technologies Used
 
-Node.js, Express
+Node.js, Express, MongoDB, Mongoose
 
 ## Tests
 
