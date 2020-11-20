@@ -12,7 +12,8 @@ const urlsToCache = [
   "/manifest.json",
   "/styles.css",
   "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "/icons/icon-512x512.png",
+  "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
 ];
 
 // Event listener to fire when user installs app as stand-alone PWA
