@@ -34,7 +34,42 @@ User input form:
 
 ## Installation Instructions
 
-npm i
+If you want to run a copy of this app on your local machine, first you will also need to download MongoDB. For help, visit the MongoDB website here:
+```
+https://docs.mongodb.com/manual/installation/
+```
+
+Once installed, make sure MongoDB is running by entering into the command line
+```
+$ mongod
+```
+
+Then, clone the repository:
+
+HTTPS:
+```
+$ git clone https://github.com/LauraCole1900/expressNoteTaker.git
+```
+
+SSH:
+```
+$ git clone git@github.com:LauraCole1900/expressNoteTaker.git
+```
+
+Then cd/ into the cloned directory and download the dependencies by typing into the command line
+```
+$ npm install --save
+```
+
+Once MongoDB and the dependencies and MongoDB is running, start the application by typing into the command line
+```
+$ node server.js
+```
+
+Then go to the browser and enter into the address bar
+```
+$ localhost:3000
+```
 
 ## Usage
 
@@ -50,7 +85,7 @@ npm run test
 
 ## Credits
 
-Base code and online functionality developed and provided by Trinity Education Services
+Base code and online functionality developed and provided by 2U/Trilogy Education Services
 
 ## Contributing
 
