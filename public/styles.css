@@ -1,11 +1,17 @@
+:root {
+  --myFont: Arial;
+  --ltGray: #dddddd;
+  --red: #ff0000;
+}
+
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: var(--myFont);
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: var(--myFont);
 }
 
 table {
@@ -13,17 +19,17 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid var(--ltGray);
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: var(--ltGray);
 }
 
 .error {
-  color: red;
+  color: var(--red);
 }
 
 .wrapper {
