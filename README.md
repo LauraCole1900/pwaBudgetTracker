@@ -77,7 +77,7 @@ This app is intended to be used to track a user's transactions and budget, wheth
 
 ## Technologies Used
 
-Node.js, Express, MongoDB, Mongoose
+[![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![Express.js](https://img.shields.io/badge/built%20with-Express.js-303030)](https://expressjs.com/) [![MongoDB](https://img.shields.io/badge/built%20with-MongoDB-4db33d)](https://www.mongodb.com/) [![Mongoose](https://img.shields.io/badge/built%20with-Mongoose-cb3837)](https://www.npmjs.com/package/mongoose)
 
 ## Tests
 
